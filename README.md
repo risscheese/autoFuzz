@@ -1,4 +1,4 @@
-git clone https://github.com/risscheese/autoFuzz
+git clone https://github.com/risscheese/autoFuzz.git
 
 cd autoFuzz
 
