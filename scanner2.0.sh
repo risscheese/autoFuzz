@@ -50,6 +50,9 @@ echo "[+] Done! Results saved to:"
 echo "    - Full report : $RESULT_FILE"
 echo "    - All found URLs: $ALL_PATHS"
 ```
+sort -u "$ALL_PATHS" -o "$ALL_PATHS"
+
+echo "    - All found URLs : $ALL_PATHS ($(wc -l < "$ALL_PATHS") unique URLs)"
 
 The key changes are:
 
