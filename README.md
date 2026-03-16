@@ -2,6 +2,6 @@ git clone https://github.com/risscheese/autoFuzz.git
 
 cd autoFuzz
 
-chmod +x autofuzz.sh
+chmod +x scanner2.0.sh
 
-./autofuzz.sh {url}
+./scanner2.0.sh {url}
