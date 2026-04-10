@@ -8,8 +8,8 @@
 # ============================================================
 
 TARGET=$1
-DIR_WORDLIST="/usr/share/dirb/wordlists/common.txt"
-FILE_WORDLIST="/home/kali/Desktop/skill_test1/wordlists/raft-medium-files.txt"
+DIR_WORDLIST="dirCommon.txt"
+FILE_WORDLIST="hiddenFiles.txt"
 
 DIR_FILE="dir_discovery.txt"
 RESULT_FILE="hidden_files_report.txt"
